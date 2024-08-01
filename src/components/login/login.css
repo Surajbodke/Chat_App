@@ -59,10 +59,6 @@
           cursor: not-allowed;
           background-color: #1f8ff19c;
         }
-
-        &:hover {
-          background-color: blue;
-        }
       }
     }
   }
