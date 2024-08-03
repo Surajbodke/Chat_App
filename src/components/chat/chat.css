@@ -62,23 +62,6 @@
     flex-direction: column;
     gap: 20px;
 
-    scrollbar-width: thin;
-    scrollbar-color: rgba(17, 25, 40, 0.5) transparent;
-
-    &::-webkit-scrollbar {
-      width: 0;
-    }
-
-    &:hover {
-      &::-webkit-scrollbar {
-        width: 8px;
-      }
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background-color: rgba(17, 25, 40, 0.5);
-      border-radius: 10px;
-    }
     .message {
       max-width: 70%;
       display: flex;
@@ -172,7 +155,7 @@
     }
 
     .sendButton {
-      background-color: #1a73e8;
+      background-color: #5183fe;
       color: white;
       padding: 10px 20px;
       border: none;
@@ -182,10 +165,6 @@
       &:disabled {
         background-color: #5182feb4;
         cursor: not-allowed;
-      }
-
-      &:hover {
-        background-color: blue;
       }
     }
   }
